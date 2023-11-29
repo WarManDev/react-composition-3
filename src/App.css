@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.containier {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  max-width: 800px;
+}
+
+.collapse {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 2px solid rgb(82, 149, 236);
+  border-radius: 5px;
+  
+}
+ .Collapse__container {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.4s; 
+}
+.btn {
+  font-size: 17px;
+  color: white;
+  padding: 10px;
+  background-color:rgb(49, 49, 221);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 50%);
+}
